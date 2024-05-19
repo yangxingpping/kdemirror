@@ -1,0 +1,28 @@
+[submodule "kconfig"]
+	path = kconfig
+	url =  https://github.com/KDE/kconfig.git
+[submodule "kcoreaddons"]
+	path = kcoreaddons
+	url = https://github.com/KDE/kcoreaddons.git
+[submodule "ki18n"]
+	path = ki18n
+	url = https://github.com/KDE/ki18n.git
+[submodule "knotifications"]
+	path = knotifications
+	url = https://github.com/KDE/knotifications.git
+[submodule "KSyntaxHighlighting"]
+	path = KSyntaxHighlighting
+	url = https://github.com/KDE/KSyntaxHighlighting.git
+[submodule "mauikit"]
+	path = mauikit
+	url = https://github.com/KDE/mauikit.git
+[submodule "mauikit-texteditor"]
+	path = mauikit-texteditor
+	url = https://github.com/KDE/mauikit-texteditor.git
+[submodule "mauiman"]
+	path = mauiman
+	url = https://github.com/KDE/mauiman.git
+[submodule "syntax-highlighting"]
+	path = syntax-highlighting
+	url = https://github.com/KDE/syntax-highlighting.git
+
