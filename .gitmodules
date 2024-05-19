@@ -10,9 +10,6 @@
 [submodule "knotifications"]
 	path = knotifications
 	url = https://github.com/KDE/knotifications.git
-[submodule "KSyntaxHighlighting"]
-	path = KSyntaxHighlighting
-	url = https://github.com/KDE/KSyntaxHighlighting.git
 [submodule "mauikit"]
 	path = mauikit
 	url = https://github.com/KDE/mauikit.git
