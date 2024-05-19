@@ -1,7 +1,6 @@
-cmake_minimum_required(VERSION 3.22)
+cmake_minimum_required(VERSION 3.28)
 
-
-set(CMAKE_TOOLCHAIN_FILE "/home/abc/vcpkg/scripts/buildsystems/vcpkg.cmake"
+set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
   CACHE STRING "Vcpkg toolchain file")
 
 project(libs)
@@ -37,7 +36,7 @@ set(CMAKE_C_STANDARD 11)
 
 add_definitions(-DUSE_SQLITE -DONESHOT_ASIO_STANDALONE -DASIO_HAS_FILE -DNOMINMAX -DSPDLOG_COMPILED_LIB)
 
-include_directories(ki18n/src/i18n build build/ki18n mauimain/lib/src/modules inc database configs hashlibrary whereami/src endian/src hotupdate inc/os/${CMAKE_SYSTEM_NAME}/export_flags)
+include_directories(./ ki18n/src/i18n build build/ki18n mauimain/lib/src/modules inc database configs hashlibrary whereami/src endian/src hotupdate inc/os/${CMAKE_SYSTEM_NAME}/export_flags)
 
 IF(CMAKE_SYSTEM_NAME MATCHES "Windows")
   if(PROJECT_IS_TOP_LEVEL)
@@ -72,7 +71,7 @@ add_subdirectory(ki18n)
 add_subdirectory(knotifications)
 add_subdirectory(mauikit)
 add_subdirectory(mauiman)
-add_subdirectory(mauikit-texteditor)
+#add_subdirectory(mauikit-texteditor)
 add_subdirectory(syntax-highlighting)
 #add_subdirectory(extra-cmake-modules)
 

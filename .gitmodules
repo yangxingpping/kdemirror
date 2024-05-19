@@ -1,6 +1,6 @@
 [submodule "kconfig"]
 	path = kconfig
-	url =  https://github.com/KDE/kconfig.git
+	url = https://github.com/KDE/kconfig.git
 [submodule "kcoreaddons"]
 	path = kcoreaddons
 	url = https://github.com/KDE/kcoreaddons.git
